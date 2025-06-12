@@ -1,13 +1,9 @@
-int _putchar(char c)
-{
-    return write(1, &c, 1);
-}
-
+#include "main.c"
 /**
  * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+ * Description: 'prints _putchar to stdout'
+ * Return: always 0
+ */ 
 int main(void)
 {
     _putchar('_');
