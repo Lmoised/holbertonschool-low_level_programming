@@ -1,19 +1,20 @@
 #include "main.h"
+
 /**
- * main - Entry point
- * Description: 'prints _putchar to stdout'
- * Return: always 0
- */ 
+*main - function prints text as output
+*
+*Return:return 0
+*/
 int main(void)
 {
-    _putchar('_');
-    _putchar('p');
-    _putchar('u');
-    _putchar('t');
-    _putchar('c');
-    _putchar('h');
-    _putchar('a');
-    _putchar('r');
-    _putchar('\n');
-    return (0);
+	char school[10] = "_putchar";
+
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(school[i]);
+	}
+	_putchar(10);
+	return (0);
 }
